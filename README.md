@@ -15,5 +15,5 @@ or add into a GitLab CI YAML, something like:
 Validate GraphQL Queries:
   stage: test
   script:
-  - graphql-inspector validator myQuery.graphql schema.graphql
+  - graphql-inspector validate myQuery.graphql schema.graphql
 ```
